@@ -1,0 +1,1 @@
+{"index.js":"const findLongestWordLength = str => {\n  let lenArr = [];\n  let splStr =  str.split(\" \").map((item) => lenArr.push(item.length));\n  return Math.max(...lenArr); \n}\n\nconsole.log(findLongestWordLength(\"The quick brown fox jumped over the lazy dog\"));"}

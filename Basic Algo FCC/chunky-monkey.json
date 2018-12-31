@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction chunkArrayInGroups(arr, size) {\n  // Break it up.\n  let res= [];\n  for (let i=0;i < arr.length ; i= i+size){\n    let tempArr = arr.slice(i,i+size);\n    res.push(tempArr);\n    // console.log(res,arr);\n  }\n  return res;\n}\n\nconsole.log(chunkArrayInGroups([\"a\", \"b\", \"c\", \"d\"], 2));"}

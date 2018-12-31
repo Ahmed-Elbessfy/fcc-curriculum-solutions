@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction diffArray(arr1, arr2) {\n  var newArr = arr2.filter(val1 => arr1.includes(val1) === false).concat(arr1.filter(val2 => arr2.includes(val2) === false));  \n  return newArr;\n}\n\nconsole.log(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]));"}

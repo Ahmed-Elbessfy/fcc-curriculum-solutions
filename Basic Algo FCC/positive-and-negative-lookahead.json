@@ -1,0 +1,1 @@
+{"index.js":"let sampleWord = \"astronaut\";\nlet pwRegex = /(?=\\w{5,})(?=\\D*\\d\\d)/; // Change this line\nlet result = pwRegex.test(sampleWord);\n\n// let password = \"abchh455\";\n// let checkPass = /(?=\\w{3,6})(?=\\D{3,6}\\d)/;\n// let result = checkPass.test(password); // Returns true\n\nconsole.log(result);"}

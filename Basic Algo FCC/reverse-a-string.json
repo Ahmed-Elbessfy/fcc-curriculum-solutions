@@ -1,0 +1,1 @@
+{"index.js":"const reverseString = str =>  str.split(\"\").reverse().join(\"\");\n\n\nconsole.log(reverseString(\"hello\"));"}

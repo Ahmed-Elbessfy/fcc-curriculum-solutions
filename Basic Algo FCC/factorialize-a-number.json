@@ -1,0 +1,1 @@
+{"index.js":"const factorialize = num => {\n  let sum = 1;\n  for(let c =num; c > 1; c--){\n    sum = sum* c\n  }\n  return sum;\n}\n\nfactorialize(5);"}

@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction dropElements(arr, func) {\n  // Drop them elements.\n  let proArr = [...arr];\n  for(let i = 0 ; i < proArr.length ;i++){\n    if(func(proArr[i]) === true){\n      return proArr.slice(i,)\n    }\n  }\n  return [];\n}\n\nconsole.log(dropElements([1, 2, 3, 4], function(n) {return n > 5;}));"}

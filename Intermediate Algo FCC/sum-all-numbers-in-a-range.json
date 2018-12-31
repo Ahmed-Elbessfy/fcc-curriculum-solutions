@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nconst sumAll = (arr) => {\n  let sorted = [...arr].sort((a,b) => a-b);//for functional progamming principles\n  for(let i=sorted[0]+1 ; i < sorted[1]; i++){\n    console.log(i);\n    sorted.push(i);\n  }\n  console.log(arr,sorted);\n  return sorted.reduce((a,b) => a+b);\n}\n\nconsole.log(sumAll([9, 4]));"}

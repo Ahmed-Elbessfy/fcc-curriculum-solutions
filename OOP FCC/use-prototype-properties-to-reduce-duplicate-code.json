@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction Dog(name) {\n  this.name = name;\n  // this.numLegs = 5;\n}\nDog.prototype.numLegs = 5;\n\n\n// Add your code above this line\nlet beagle = new Dog(\"Snoopy\");\nconsole.log(beagle.numLegs);"}

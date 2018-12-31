@@ -1,0 +1,1 @@
+{"index.js":"\n// //Original Version\n// function makeNest() {\n//   console.log(\"A cozy nest is ready\");\n// }\n\n// makeNest(); \n\n\n//IIFE Version\n(function() {\n  console.log(\"A cozy nest is ready\");\n})();\n\n "}

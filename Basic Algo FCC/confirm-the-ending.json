@@ -1,0 +1,1 @@
+{"index.js":"function confirmEnding(str, target) {\n  return str.slice(-target.length) === target;\n}\n\nconsole.log(confirmEnding(\"Bastian\", \"o12n\"));"}

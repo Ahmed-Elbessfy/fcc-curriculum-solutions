@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction mutation(arr) {\n  return arr[1].toLowerCase().split(\"\").every((l) => arr[0].toLowerCase().split(\"\").indexOf(l) !== -1);\n}\n\nconsole.log(mutation([\"hello\", \"hello\"]));"}

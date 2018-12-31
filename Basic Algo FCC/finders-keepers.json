@@ -1,0 +1,1 @@
+{"index.js":"function findElement(arr) {\n  let res = arr.filter( num => num % 2 == 0);\n  return res[0];\n}\n\nconsole.log(findElement([1, 2, 3, 4]));"}

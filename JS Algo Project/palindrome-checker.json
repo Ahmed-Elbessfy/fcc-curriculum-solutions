@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction palindrome(str) {\n  // Good luck!\n  let clean = str.toLowerCase().replace(/\\W|_/g , \"\").split(\"\")\n  return clean.join(\"\") === clean.reverse().join(\"\");\n}\n\n\nconsole.log(palindrome(\"My age is 0, 0 si ega ym.\"));"}

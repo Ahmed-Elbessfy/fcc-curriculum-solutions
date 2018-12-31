@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction fearNotLetter(str) {\n  let count = str.charCodeAt(0);\n  let strSpl = str.split(\"\");\n  for (let i =0; i<str.length ; i++){\n    if(str.charCodeAt(i) !== count){\n      return String.fromCharCode(count);\n    }\n    count++;\n  }\n  return undefined;\n}\n\nconsole.log(fearNotLetter(\"abce\"));"}

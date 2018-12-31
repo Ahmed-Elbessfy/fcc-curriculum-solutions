@@ -1,0 +1,1 @@
+{"index.js":"console.clear();\nfunction sumFibs(num) {\n  let resArr = [1];\n  for(let i = resArr[resArr.length-1] ; i <= num ; i = resArr[resArr.length-1]+resArr[resArr.length -2]){\n    resArr.push(i);\n  } \n  return resArr.filter(x => x%2 !== 0).reduce((a,b) => a+b);\n}\n\nconsole.log(sumFibs(75025));"}
